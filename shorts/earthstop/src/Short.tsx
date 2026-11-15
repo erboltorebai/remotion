@@ -298,6 +298,9 @@ export const Short: React.FC<{captions: boolean; rs: number}> = ({captions, rs})
 		g.setTransform(1, 0, 0, 1, 0, 0);
 		g.clearRect(0, 0, W, H);
 		g.globalAlpha = 1;
+		// a clear-only frame is not always re-presented by headless Chrome (stale sprites stay on screen): always draw something
+		g.fillStyle = 'rgba(0,0,0,0.01)';
+		g.fillRect(0, 0, 2, 2);
 		if (xf < 0.3) drawFx(g, main.fx, main.cam, frame);
 	}, [frame, t, width, height, rs]);
 
