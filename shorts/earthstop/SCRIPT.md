@@ -1,0 +1,28 @@
+# What If the Earth Stopped Spinning for One Second
+
+## Facts (checked)
+- Earth's surface speed at the equator: ~1,670 km/h = ~1,037 mph = ~465 m/s (circumference 40,075 km / 23 h 56 min). Source: NASA "Earth Fact Sheet".
+- Speed of sound at sea level: ~343 m/s (767 mph). A passenger jet cruises at ~550-580 mph.
+- Strongest sustained hurricane winds ever measured: Hurricane Patricia (2015), 215 mph (NOAA NHC). 1,037 / 215 = ~4.8, strongest gust on record 253 mph (Barrow Island 1996, WMO) -> "four times" is safe.
+- At the poles the surface speed from rotation is ~0: the ground only turns in place once a day.
+- Quito, Ecuador sits almost on the equator (0.2 deg S).
+- Inertia (Newton's first law): the air, the oceans and everything not anchored to bedrock keeps moving east.
+
+## Script (voice-over, English, ~225 words)
+If the Earth stopped spinning for just one second, you'd leave your house at a thousand miles an hour. Through the wall.
+
+Imagine you're Dave. It's seven a.m. in Ecuador, you're pouring coffee, and nothing in your kitchen is moving. Except all of it is.
+
+Right now, the ground under Dave is racing east at a thousand miles an hour. Faster than a passenger jet. Faster than sound.
+
+Wait, so why doesn't Dave feel a thing?
+
+You see, Dave is moving too. So is his coffee, his cat, and the air. Ever ride a bus? At a steady speed you can stand, sip, even nap. You only notice the speed when the driver slams the brakes. The bus stops. You don't.
+
+So now, the Earth slams the brakes. The ground stops. Dave doesn't. He goes east. So does the coffee, the cat, the couch, and most of the kitchen.
+
+The air keeps going too, a wind four times faster than the strongest hurricane ever measured. And the oceans? They don't stop either. They just get up, and walk across the land.
+
+Is anyone safe? Yes. A handful of scientists standing at the South Pole. There, the ground isn't racing anywhere. It just slowly turns in place.
+
+So while the whole world flies east, they feel nothing at all. They just wonder why nobody is answering their emails.

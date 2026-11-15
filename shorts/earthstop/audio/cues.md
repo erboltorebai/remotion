@@ -1,0 +1,44 @@
+# SFX cues
+
+-   0.40 s  globe brake screech
+-   0.42 s  globe stop thud
+-   2.28 s  Dave through wall (hook)
+-   2.30 s  Dave flies east
+-   4.15 s  whip to hole
+-   5.18 s  flash
+-   5.25 s  kitchen birds bed
+-   5.95 s  coffee pour
+-   9.50 s  camera leaves through roof
+-  10.70 s  speed rush bed
+-  13.95 s  jet falls behind
+-  15.80 s  sound waves
+-  16.95 s  sip
+-  17.53 s  question mark pop
+-  19.00 s  soft speed bed
+-  21.12 s  cat
+-  21.75 s  bus engine bed
+-  24.52 s  sip on bus
+-  24.86 s  snore
+-  26.90 s  bus brakes
+-  28.45 s  Dave flies down the aisle
+-  29.03 s  splat on windshield
+-  29.05 s  glass crack
+-  29.36 s  Earth spin hum
+-  30.10 s  Earth brakes
+-  31.25 s  kitchen jolt
+-  31.27 s  rattle
+-  32.28 s  Dave slides east
+-  33.20 s  through the kitchen wall
+-  34.17 s  coffee flies out
+-  34.69 s  cat flies out
+-  35.09 s  couch flies out
+-  35.88 s  most of the kitchen
+-  36.40 s  hurricane wind bed
+-  37.20 s  roofs / mailbox rip off
+-  40.90 s  ocean rumble bed
+-  41.17 s  wave footsteps
+-  44.85 s  dive to the pole
+-  45.70 s  polar wind bed
+-  51.95 s  the world flies past, far away
+-  53.50 s  cocoa sip
+-  54.70 s  typing
