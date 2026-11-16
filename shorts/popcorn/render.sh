@@ -7,7 +7,7 @@ N=1730; C=115; mkdir -p out/parts
 for ((a=0; a<N; a+=C)); do
   b=$(( a+C-1 < N-1 ? a+C-1 : N-1 )); f=out/parts/p$(printf %04d $a).mp4
   if [ ! -f "$f" ]; then
-    npx remotion render out/bundle Popcorn out/parts/tmp.mp4 --frames=$a-$b --codec h264 --crf 16 --scale 2 --concurrency=4 --browser-executable=$B --gl=swangle --log=error --muted >> out/render.log 2>&1 && mv out/parts/tmp.mp4 "$f" || { echo "chunk $a failed"; exit 1; }
+    npx remotion render out/bundle Popcorn out/parts/tmp.mp4 --frames=$a-$b --codec h264 --crf 16 --scale 2 --concurrency=4 --browser-executable=$B --gl=swangle --log=error --muted --timeout=240000 >> out/render.log 2>&1 && mv out/parts/tmp.mp4 "$f" || { echo "chunk $a failed"; exit 1; }
   fi
   echo "file '$(basename $f)'" >> out/parts/list.txt; echo "done $b/$N"
 done
