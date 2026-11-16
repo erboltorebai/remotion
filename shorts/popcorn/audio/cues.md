@@ -1,0 +1,44 @@
+# SFX cues
+
+-   0.00 s  kitchen room tone
+-   1.05 s  microwave start beep
+-   1.10 s  microwave hum
+-   1.95 s  camera out of the roof
+-   2.35 s  evening air
+-   3.40 s  lights go out
+-   5.00 s  one sad kernel tick
+-   5.58 s  flash
+-   5.60 s  TV crowd
+-   7.90 s  kick-off whistle
+-   9.20 s  rise over the houses
+-  11.78 s  everyone presses start
+-  12.50 s  one microwave hum
+-  14.90 s  hair dryer
+-  15.75 s  power plant rumble
+-  15.75 s  steam hiss
+-  20.30 s  "Combined" hit
+-  20.30 s  overload buzz
+-  20.90 s  wire sparks
+-  22.15 s  question mark pop
+-  23.80 s  night crickets bed
+-  25.85 s  pulse travels down the line
+-  28.35 s  pulse arrives
+-  28.90 s  hill night bed
+-  29.00 s  bike chain
+-  32.50 s  friends land on the back
+-  34.40 s  pedals groan
+-  35.30 s  control room tone
+-  35.50 s  grid heartbeat
+-  39.15 s  alarm
+-  40.30 s  engineer runs
+-  41.72 s  giant switch
+-  42.80 s  city blocks switch off
+-  45.38 s  your house goes dark
+-  46.20 s  torch click
+-  48.15 s  soccer on TV
+-  49.00 s  tea sip
+-  51.38 s  final whistle
+-  52.00 s  kettles boil
+-  54.10 s  dark kitchen
+-  56.45 s  bag rustle
+-  56.92 s  kernels hit the floor
