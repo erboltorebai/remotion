@@ -1,0 +1,24 @@
+<!doctype html><meta charset="utf-8"><body style="margin:0;background:#222">
+<canvas id=c width=1080 height=1920></canvas>
+<script src="lib.js"></script>
+<script src="props.js"></script>
+<script>
+const t = 0.9;
+X.fillStyle = '#bfe8ff'; X.fillRect(0, 0, W, H);
+swedenFlag(150, 170, 1, t);
+meatballs(480, 150, 1, t);
+snowman(850, 330, .9, t);
+officeBuilding(300, 760, .75, t, 'SKATTEVERKET');
+clerk(780, 760, 70, t, {});
+magnifier(120, 900, 1, .5, t);
+envelope(480, 940, 1, -.15, 'NAMN');
+paperSheet(740, 930, 200, 260, .1);
+baby(150, 1230, 1, t);
+baby(450, 1230, 1, t, { face: 'open', guitar: true, rock: true });
+letterA(850, 1200, .6, t);
+fineTicket(230, 1450, .8, -.1);
+calendarFlip(650, 1450, 1, 0.6, 0);
+calendarFlip(900, 1450, .5, 0.1, 0);
+bigName(540, 1700, t, 1);
+snowfall(t, 40, 1);
+</script>
