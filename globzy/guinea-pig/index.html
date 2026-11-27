@@ -1,0 +1,27 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Globzy Guinea Pig</title>
+<style>html,body{margin:0;background:#111}canvas{display:block;width:100vw;max-width:540px;height:auto;margin:auto}</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas>
+<script src="words.js"></script><script src="lib.js"></script><script src="scenes.js"></script><script src="captions.js"></script>
+<script>
+function sceneAt(t) { let i = 0; for (let j = 0; j < SCENES.length; j++) if (t >= SCENES[j][0]) i = j; return i; }
+function draw(t) {
+  const i = sceneAt(t), [t0, fn] = SCENES[i], t1 = SCENES[i + 1] ? SCENES[i + 1][0] : END;
+  X.setTransform(1, 0, 0, 1, 0, 0); X.clearRect(0, 0, W, H);
+  // camera: push-in +4% over scene, cut punch +8%, word punch +5%, roll, shakes
+  let z = 1 + .04 * clamp((t - t0) / (t1 - t0));
+  z += .08 * (1 - eo(prog(t, t0, .38))) * (i > 0 ? 1 : 0);
+  for (const p of PUNCH) if (t >= p && t < p + .4) z += .05 * (1 - eo((t - p) / .4));
+  let sx = 0, sy = 0;
+  for (const [s, a] of SHAKE) { const u = t - s; if (u >= 0 && u < .42) { const d = a * (1 - u / .42); sx += Math.sin(u * 73) * d; sy += Math.cos(u * 61) * d; } }
+  X.save(); X.translate(540 + sx, 960 + sy); X.rotate(Math.sin(t * .9) * .006); X.scale(z, z); X.translate(-540, -960);
+  fn(t, t0);
+  X.restore();
+  // vignette
+  const g = X.createRadialGradient(540, 960, 600, 540, 960, 1250); g.addColorStop(0, 'rgba(20,10,40,0)'); g.addColorStop(1, 'rgba(20,10,40,.25)'); X.fillStyle = g; X.fillRect(0, 0, W, H);
+  captions(t);
+  // white flash on cuts
+  if (i > 0 && t - t0 < .1) { X.fillStyle = `rgba(255,255,255,${.85 * (1 - (t - t0) / .1)})`; X.fillRect(0, 0, W, H); }
+}
+window.DURATION = END; window.CUTS = SCENES.map(s => s[0]);
+draw(+(location.hash.slice(1) || 1.5));
+</script></body></html>
